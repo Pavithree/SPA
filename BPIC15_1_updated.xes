@@ -1,0 +1,3538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  XES version 1849.2016 (IEEE 1849-2016)  -->
+<!--  Created by Fluxicon Disco (fluxicon.com/disco)  -->
+<!--  (c) 2022 by Fluxicon BV, Bomanshof 259, 5611 NS Eindhoven, The Netherlands  -->
+<log xes.version="1849.2016" xmlns="http://www.xes-standard.org" xes.creator="Fluxicon Disco">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext"/>
+	<global scope="trace">
+		<string key="concept:name" value="name"/>
+		<string key="variant" value="string"/>
+		<int key="variant-index" value="0"/>
+	</global>
+	<global scope="event">
+		<string key="concept:name" value="name"/>
+		<string key="lifecycle:transition" value="transition"/>
+		<string key="org:resource" value="resource"/>
+		<date key="time:timestamp" value="2022-02-14T18:22:48.037+01:00"/>
+		<string key="action_code" value="string"/>
+		<string key="activityNameEN" value="string"/>
+		<string key="time:timestamp" value="string"/>
+		<string key="monitoringResource" value="string"/>
+	</global>
+	<classifier name="Activity" keys="activityNameEN"/>
+	<classifier name="Resource" keys="action_code monitoringResource org:resource"/>
+	<string key="lifecycle:model" value="standard"/>
+	<string key="creator" value="Fluxicon Disco"/>
+	<string key="library" value="Fluxicon Octane"/>
+	<trace>
+		<string key="concept:name" value="10680390"/>
+		<string key="variant" value="Variant 2"/>
+		<int key="variant-index" value="2"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-23T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2014-06-20 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-23T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2014-06-23 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-23T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-06-23 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-23T00:00:00.000+02:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2014-06-23 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-23T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-06-23 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-23T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2014-06-23 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="MER required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="04_BPT_009"/>
+			<string key="activityNameEN" value="MER required"/>
+			<string key="time:timestamp" value="2014-06-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="activities regular procedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="04_BPT_020"/>
+			<string key="activityNameEN" value="activities regular procedure"/>
+			<string key="time:timestamp" value="2014-06-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phased application"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="04_BPT_030"/>
+			<string key="activityNameEN" value="phased application"/>
+			<string key="time:timestamp" value="2014-06-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2014-06-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2014-06-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create subcases completeness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_110_0"/>
+			<string key="activityNameEN" value="create subcases completeness"/>
+			<string key="time:timestamp" value="2014-06-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="procedure change"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_180"/>
+			<string key="activityNameEN" value="procedure change"/>
+			<string key="time:timestamp" value="2014-06-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2014-06-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2014-06-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="04_BPT_021"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2014-06-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2014-06-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="read field phased application"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="04_BPT_029"/>
+			<string key="activityNameEN" value="read field phased application"/>
+			<string key="time:timestamp" value="2014-06-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-06-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2014-06-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="10914823"/>
+		<string key="variant" value="Variant 3"/>
+		<int key="variant-index" value="3"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-07-18T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2014-07-15 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-07-18T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2014-07-18 00:00:00+02:00"/>
+			<string key="monitoringResource" value="4465474"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-07-18T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-07-18 00:00:00+02:00"/>
+			<string key="monitoringResource" value="4465474"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-07-18T00:00:00.000+02:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2014-07-18 00:00:00+02:00"/>
+			<string key="monitoringResource" value="4465474"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-07-18T00:00:00.000+02:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2014-07-18 00:00:00+02:00"/>
+			<string key="monitoringResource" value="4465474"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-07-18T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2014-07-18 00:00:00+02:00"/>
+			<string key="monitoringResource" value="4465474"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-07-18T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2014-07-18 00:00:00+02:00"/>
+			<string key="monitoringResource" value="4465474"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create subcases completeness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-07-18T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_110_0"/>
+			<string key="activityNameEN" value="create subcases completeness"/>
+			<string key="time:timestamp" value="2014-07-18 00:00:00+02:00"/>
+			<string key="monitoringResource" value="4465474"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="procedure change"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-07-18T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_180"/>
+			<string key="activityNameEN" value="procedure change"/>
+			<string key="time:timestamp" value="2014-07-18 00:00:00+02:00"/>
+			<string key="monitoringResource" value="4465474"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-07-18T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2014-07-18 00:00:00+02:00"/>
+			<string key="monitoringResource" value="4465474"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-07-18T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2014-07-18 00:00:00+02:00"/>
+			<string key="monitoringResource" value="4465474"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-07-18T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-07-18 00:00:00+02:00"/>
+			<string key="monitoringResource" value="4465474"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-07-18T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2014-07-21 00:00:00+02:00"/>
+			<string key="monitoringResource" value="4465474"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="11090632"/>
+		<string key="variant" value="Variant 4"/>
+		<int key="variant-index" value="4"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-08-15T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2014-08-14 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-08-15T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2014-08-15 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-08-15T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-08-15 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-08-15T00:00:00.000+02:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2014-08-15 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-08-15T00:00:00.000+02:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2014-08-15 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-08-15T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2014-08-15 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-08-15T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2014-08-15 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create subcases completeness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-08-15T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_110_0"/>
+			<string key="activityNameEN" value="create subcases completeness"/>
+			<string key="time:timestamp" value="2014-08-15 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-08-15T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2014-08-15 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-08-15T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2014-08-15 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-08-15T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2014-08-15 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-08-15T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-08-15 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-08-15T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2014-08-15 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="request complete"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="08_AWB45_005"/>
+			<string key="activityNameEN" value="request complete"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send letter in progress"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_200"/>
+			<string key="activityNameEN" value="send letter in progress"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create subcases content"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_250_0"/>
+			<string key="activityNameEN" value="create subcases content"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="procedure change"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_330"/>
+			<string key="activityNameEN" value="procedure change"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="article 34  WABO applies"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="09_AH_I_010"/>
+			<string key="activityNameEN" value="article 34  WABO applies"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="grounds for refusal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_380"/>
+			<string key="activityNameEN" value="grounds for refusal"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="ask stakeholders views"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_430"/>
+			<string key="activityNameEN" value="ask stakeholders views"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="suspension ground applicable"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="11_AH_II_010"/>
+			<string key="activityNameEN" value="suspension ground applicable"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="coordination of application"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="13_CRD_010"/>
+			<string key="activityNameEN" value="coordination of application"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="by law"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_480"/>
+			<string key="activityNameEN" value="by law"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="decision date prior to decision"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_490_2"/>
+			<string key="activityNameEN" value="decision date prior to decision"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="procedure change"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_180"/>
+			<string key="activityNameEN" value="procedure change"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase advice known"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_375"/>
+			<string key="activityNameEN" value="phase advice known"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application receptive"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_195"/>
+			<string key="activityNameEN" value="phase application receptive"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="creating environmental permit decision"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_490_1"/>
+			<string key="activityNameEN" value="creating environmental permit decision"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="set decision status"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-26T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_490_1a"/>
+			<string key="activityNameEN" value="set decision status"/>
+			<string key="time:timestamp" value="2014-09-26 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="2670601"/>
+		</event>
+		<event>
+			<string key="concept:name" value="submit decision"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_491"/>
+			<string key="activityNameEN" value="submit decision"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="register objection and appeal periods"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_500"/>
+			<string key="activityNameEN" value="register objection and appeal periods"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="creating cover letter decision"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_510_0"/>
+			<string key="activityNameEN" value="creating cover letter decision"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase decision sent"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_515"/>
+			<string key="activityNameEN" value="phase decision sent"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate decision environmental permit"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_510_3"/>
+			<string key="activityNameEN" value="enter senddate decision environmental permit"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate decision"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_510_4"/>
+			<string key="activityNameEN" value="enter senddate decision"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="generating decision environmental permit"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_490_4"/>
+			<string key="activityNameEN" value="generating decision environmental permit"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase decision taken"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_495"/>
+			<string key="activityNameEN" value="phase decision taken"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase decision ready"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_494a"/>
+			<string key="activityNameEN" value="phase decision ready"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="transcript decision environmental permit to stakeholders"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_510_1"/>
+			<string key="activityNameEN" value="transcript decision environmental permit to stakeholders"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate decision environmental permit"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_510_2"/>
+			<string key="activityNameEN" value="enter senddate decision environmental permit"/>
+			<string key="time:timestamp" value="2014-10-06 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="record date of decision environmental permit"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_490_5"/>
+			<string key="activityNameEN" value="record date of decision environmental permit"/>
+			<string key="time:timestamp" value="2014-10-06 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="set decision phase decision permitting decided"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_490_5a"/>
+			<string key="activityNameEN" value="set decision phase decision permitting decided"/>
+			<string key="time:timestamp" value="2014-10-06 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start decision phase decision permitting sent"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_510_2a"/>
+			<string key="activityNameEN" value="start decision phase decision permitting sent"/>
+			<string key="time:timestamp" value="2014-10-07 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-07T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2014-08-15 10:09:11+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="11276486"/>
+		<string key="variant" value="Variant 5"/>
+		<int key="variant-index" value="5"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2014-09-03 00:00:00+02:00"/>
+			<string key="monitoringResource" value="9264148"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2014-09-08 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2014-09-08 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create subcases completeness"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_110_0"/>
+			<string key="activityNameEN" value="create subcases completeness"/>
+			<string key="time:timestamp" value="2014-09-08 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2014-09-08 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2014-09-08 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2014-09-08 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-09-08 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2014-09-08 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2014-09-08 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-09-08 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2014-09-08 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2014-09-08 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-09-08T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2014-09-08 10:19:29+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="11563841"/>
+		<string key="variant" value="Variant 6"/>
+		<int key="variant-index" value="6"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2014-10-01 00:00:00+02:00"/>
+			<string key="monitoringResource" value="9264148"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2014-10-02 00:00:00+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-10-02T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2014-10-02 14:35:51+02:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12092469"/>
+		<string key="variant" value="Variant 7"/>
+		<int key="variant-index" value="7"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2014-11-18 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="MER required"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_009"/>
+			<string key="activityNameEN" value="MER required"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="activities regular procedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_020"/>
+			<string key="activityNameEN" value="activities regular procedure"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phased application"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_030"/>
+			<string key="activityNameEN" value="phased application"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="read field phased application"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_029"/>
+			<string key="activityNameEN" value="read field phased application"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_021"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2014-11-20 13:06:43+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12096555"/>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2014-11-18 00:00:00+01:00"/>
+			<string key="monitoringResource" value="4676453"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-11-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-20T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2014-11-21 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="9264148"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12189231"/>
+		<string key="variant" value="Variant 8"/>
+		<int key="variant-index" value="8"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-27T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2014-11-25 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-27T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2014-11-27 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-27T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-11-27 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-27T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2014-11-27 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-27T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2014-11-27 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-27T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2014-11-27 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-27T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2014-11-27 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-27T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2014-11-27 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-27T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-11-27 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-27T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2014-11-27 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-27T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2014-11-27 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-27T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2014-11-27 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-11-27T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2014-11-27 13:33:04+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12239409"/>
+		<string key="variant" value="Variant 9"/>
+		<int key="variant-index" value="9"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-12-01T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2014-11-28 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-12-01T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2014-12-01 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-12-01T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2014-12-01 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-12-01T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2014-12-01 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-12-01T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2014-12-01 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-12-01T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2014-12-01 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-12-01T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2014-12-01 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-12-01T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-12-01 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-12-01T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2014-12-01 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-12-01T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2014-12-01 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-12-01T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2014-12-01 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-12-01T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2014-12-01 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2014-12-01T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2014-12-01 12:29:59+01:00"/>
+			<string key="monitoringResource" value="560950"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12789957"/>
+		<string key="variant" value="Variant 10"/>
+		<int key="variant-index" value="10"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2015-01-16 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2015-01-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-01-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2015-01-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2015-01-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2015-01-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2015-01-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2015-01-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2015-01-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2015-01-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-01-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2015-01-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2015-01-19 12:27:45+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12905128"/>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2015-01-26 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2015-01-29 11:12:31+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12907271"/>
+		<string key="variant" value="Variant 11"/>
+		<int key="variant-index" value="11"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2015-01-27 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2015-01-29 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-01-29T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2015-01-29 12:29:07+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12993950"/>
+		<string key="variant" value="Variant 1"/>
+		<int key="variant-index" value="1"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2015-02-06 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2015-02-09 10:25:54+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12998701"/>
+		<string key="variant" value="Variant 12"/>
+		<int key="variant-index" value="12"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2015-02-07 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2015-02-09 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-09T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2015-02-09 14:56:44+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13055326"/>
+		<string key="variant" value="Variant 13"/>
+		<int key="variant-index" value="13"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-12T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2015-02-11 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-12T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2015-02-12 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-12T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-12 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-12T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2015-02-12 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-12T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2015-02-12 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-12T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2015-02-12 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-12T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2015-02-12 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-12T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2015-02-12 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-12T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2015-02-12 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-12T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2015-02-12 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-12T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-12 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-12T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2015-02-12 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-12T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2015-02-13 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13060756"/>
+		<string key="variant" value="Variant 14"/>
+		<int key="variant-index" value="14"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-13T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2015-02-12 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-13T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2015-02-13 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-13T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-13 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-13T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2015-02-13 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-13T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2015-02-13 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-13T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2015-02-13 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-13T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2015-02-13 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-13T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2015-02-13 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-13T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2015-02-13 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-13T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-13 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-13T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2015-02-13 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-13T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2015-02-13 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-13T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2015-02-13 10:46:45+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13063975"/>
+		<string key="variant" value="Variant 15"/>
+		<int key="variant-index" value="15"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-16T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2015-02-12 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-16T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2015-02-16 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-16T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-16 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-16T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2015-02-16 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-16T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2015-02-16 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-16T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2015-02-16 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-16T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2015-02-16 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-16T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2015-02-16 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-16T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2015-02-16 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-16T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2015-02-16 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-16T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-16 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-16T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2015-02-16 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-16T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2015-02-16 09:13:39+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13091175"/>
+		<string key="variant" value="Variant 16"/>
+		<int key="variant-index" value="16"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2015-02-13 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2015-02-19 10:14:08+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13094908"/>
+		<string key="variant" value="Variant 17"/>
+		<int key="variant-index" value="17"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2015-02-14 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2015-02-19 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-19T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2015-02-19 12:33:15+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13113737"/>
+		<string key="variant" value="Variant 18"/>
+		<int key="variant-index" value="18"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-23T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2015-02-20 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-23T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2015-02-23 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-23T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-23 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-23T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2015-02-23 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-23T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2015-02-23 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-23T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2015-02-23 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-23T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2015-02-23 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-23T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2015-02-23 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-23T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-23 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-23T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2015-02-23 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-23T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2015-02-23 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-23T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2015-02-23 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-23T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2015-02-23 12:51:35+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13160407"/>
+		<string key="variant" value="Variant 19"/>
+		<int key="variant-index" value="19"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-26T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2015-02-24 00:00:00+01:00"/>
+			<string key="monitoringResource" value="12941730"/>
+			<string key="org:resource" value="12941730"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-26T00:00:00.000+01:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2015-02-26 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="12941730"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-26T00:00:00.000+01:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2015-02-26 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="12941730"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-26T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2015-02-26 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="12941730"/>
+		</event>
+		<event>
+			<string key="concept:name" value="publish"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-26T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_090"/>
+			<string key="activityNameEN" value="publish"/>
+			<string key="time:timestamp" value="2015-02-26 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="12941730"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-26T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2015-02-26 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="12941730"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-26T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2015-02-26 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="12941730"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-26T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-26 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="12941730"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-26T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2015-02-26 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="12941730"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-26T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2015-02-26 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="12941730"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-26T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2015-02-26 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="12941730"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-26T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2015-02-26 00:00:00+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="12941730"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2015-02-26T00:00:00.000+01:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2015-02-26 10:51:53+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="12941730"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4082554"/>
+		<string key="variant" value="Variant 20"/>
+		<int key="variant-index" value="20"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-05-04T11:08:14.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2011-11-07 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-05-04T11:08:14.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2011-11-11 13:37:13+01:00"/>
+			<string key="monitoringResource" value="2670601"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="terminate on request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-05-04T11:08:14.000+02:00"/>
+			<string key="action_code" value="05_EIND_010"/>
+			<string key="activityNameEN" value="terminate on request"/>
+			<string key="time:timestamp" value="2011-11-11 13:37:15+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-05-04T11:08:14.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2011-11-11 13:37:19+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-05-04T11:08:14.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2011-11-11 14:24:58+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-05-04T11:08:14.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_040"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2011-11-11 14:25:06+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-05-04T11:08:14.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_060"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2011-11-11 14:25:17+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-05-04T11:08:14.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_065_1"/>
+			<string key="activityNameEN" value="send procedure confirmation"/>
+			<string key="time:timestamp" value="2011-11-11 14:25:18+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-05-04T11:08:14.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_065_2"/>
+			<string key="activityNameEN" value="enter senddate procedure confirmation"/>
+			<string key="time:timestamp" value="2011-11-14 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2012-05-04T11:08:14.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2011-11-14 00:00:00+01:00"/>
+			<string key="monitoringResource" value="560872"/>
+			<string key="org:resource" value="560872"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7954530"/>
+		<string key="variant" value="Variant 21"/>
+		<int key="variant-index" value="21"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<event>
+			<string key="concept:name" value="register submission date request"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_010"/>
+			<string key="activityNameEN" value="register submission date request"/>
+			<string key="time:timestamp" value="2013-07-29 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560912"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="OLO messaging active"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_011"/>
+			<string key="activityNameEN" value="OLO messaging active"/>
+			<string key="time:timestamp" value="2013-07-31 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560912"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_020"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2013-07-31 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560912"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="forward to the competent authority"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00.000+02:00"/>
+			<string key="action_code" value="02_DRZ_010"/>
+			<string key="activityNameEN" value="forward to the competent authority"/>
+			<string key="time:timestamp" value="2013-07-31 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560912"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="regular procedure without MER"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00.000+02:00"/>
+			<string key="action_code" value="04_BPT_005"/>
+			<string key="activityNameEN" value="regular procedure without MER"/>
+			<string key="time:timestamp" value="2013-07-31 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560912"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create procedure confirmation"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_065_0"/>
+			<string key="activityNameEN" value="create procedure confirmation"/>
+			<string key="time:timestamp" value="2013-07-31 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560912"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="create publication document"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_100_0"/>
+			<string key="activityNameEN" value="create publication document"/>
+			<string key="time:timestamp" value="2013-07-31 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560912"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="phase application received"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_015"/>
+			<string key="activityNameEN" value="phase application received"/>
+			<string key="time:timestamp" value="2013-07-31 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560912"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="start WABOprocedure"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_061"/>
+			<string key="activityNameEN" value="start WABOprocedure"/>
+			<string key="time:timestamp" value="2013-07-31 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560912"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="send confirmation receipt"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_1"/>
+			<string key="activityNameEN" value="send confirmation receipt"/>
+			<string key="time:timestamp" value="2013-07-31 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560912"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="registration date publication"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_101"/>
+			<string key="activityNameEN" value="registration date publication"/>
+			<string key="time:timestamp" value="2013-07-31 00:00:00+02:00"/>
+			<string key="monitoringResource" value="560912"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+		<event>
+			<string key="concept:name" value="enter senddate acknowledgement"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00.000+02:00"/>
+			<string key="action_code" value="01_HOOFD_030_2"/>
+			<string key="activityNameEN" value="enter senddate acknowledgement"/>
+			<string key="time:timestamp" value="2013-07-31 13:33:55+02:00"/>
+			<string key="monitoringResource" value="560912"/>
+			<string key="org:resource" value="560912"/>
+		</event>
+	</trace>
+</log>
